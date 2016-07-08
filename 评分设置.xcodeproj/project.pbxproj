@@ -15,6 +15,8 @@
 		630E30021D1A4CE10039A1AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630E30001D1A4CE10039A1AA /* LaunchScreen.storyboard */; };
 		630E300D1D1A4CE10039A1AA /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630E300C1D1A4CE10039A1AA /* ____Tests.m */; };
 		630E30181D1A4CE10039A1AA /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630E30171D1A4CE10039A1AA /* ____UITests.m */; };
+		630E30271D1AC44A0039A1AA /* UIImage+LzyImageTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 630E30261D1AC44A0039A1AA /* UIImage+LzyImageTint.m */; };
+		631FE7701D1CD236006288C9 /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 631FE76F1D1CD236006288C9 /* StarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		630E30131D1A4CE10039A1AA /* 评分设置UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "评分设置UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		630E30171D1A4CE10039A1AA /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		630E30191D1A4CE10039A1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630E30251D1AC44A0039A1AA /* UIImage+LzyImageTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LzyImageTint.h"; sourceTree = "<group>"; };
+		630E30261D1AC44A0039A1AA /* UIImage+LzyImageTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LzyImageTint.m"; sourceTree = "<group>"; };
+		631FE76E1D1CD236006288C9 /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView.h; sourceTree = "<group>"; };
+		631FE76F1D1CD236006288C9 /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +89,6 @@
 			children = (
 				630E2FF11D1A4CE10039A1AA /* 评分设置 */,
 				630E300B1D1A4CE10039A1AA /* 评分设置Tests */,
-				630E30161D1A4CE10039A1AA /* 评分设置UITests */,
 				630E2FF01D1A4CE10039A1AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +110,10 @@
 				630E2FF61D1A4CE10039A1AA /* AppDelegate.m */,
 				630E2FF81D1A4CE10039A1AA /* ViewController.h */,
 				630E2FF91D1A4CE10039A1AA /* ViewController.m */,
+				631FE76E1D1CD236006288C9 /* StarView.h */,
+				631FE76F1D1CD236006288C9 /* StarView.m */,
+				630E30251D1AC44A0039A1AA /* UIImage+LzyImageTint.h */,
+				630E30261D1AC44A0039A1AA /* UIImage+LzyImageTint.m */,
 				630E2FFB1D1A4CE10039A1AA /* Main.storyboard */,
 				630E2FFE1D1A4CE10039A1AA /* Assets.xcassets */,
 				630E30001D1A4CE10039A1AA /* LaunchScreen.storyboard */,
@@ -126,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				630E300C1D1A4CE10039A1AA /* ____Tests.m */,
+				630E30161D1A4CE10039A1AA /* 评分设置UITests */,
 				630E300E1D1A4CE10039A1AA /* Info.plist */,
 			);
 			path = "评分设置Tests";
@@ -137,7 +147,8 @@
 				630E30171D1A4CE10039A1AA /* ____UITests.m */,
 				630E30191D1A4CE10039A1AA /* Info.plist */,
 			);
-			path = "评分设置UITests";
+			name = "评分设置UITests";
+			path = "../评分设置UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +286,8 @@
 			files = (
 				630E2FFA1D1A4CE10039A1AA /* ViewController.m in Sources */,
 				630E2FF71D1A4CE10039A1AA /* AppDelegate.m in Sources */,
+				630E30271D1AC44A0039A1AA /* UIImage+LzyImageTint.m in Sources */,
+				631FE7701D1CD236006288C9 /* StarView.m in Sources */,
 				630E2FF41D1A4CE10039A1AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +514,7 @@
 				630E301E1D1A4CE10039A1AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		630E301F1D1A4CE10039A1AA /* Build configuration list for PBXNativeTarget "评分设置Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +523,7 @@
 				630E30211D1A4CE10039A1AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		630E30221D1A4CE10039A1AA /* Build configuration list for PBXNativeTarget "评分设置UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +532,7 @@
 				630E30241D1A4CE10039A1AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
